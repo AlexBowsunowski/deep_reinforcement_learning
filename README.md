@@ -10,3 +10,9 @@
 Установка необходимых библиотек:
 
 `pip install -r requirements.txt`
+
+Установка pre-commit: 
+
+`pre-commit install`
+
+`pre-commit`
