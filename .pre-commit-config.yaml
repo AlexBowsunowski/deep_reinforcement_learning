@@ -17,6 +17,14 @@ repos:
     -   id: end-of-file-fixer
         exclude: \.txt$
     -   id: trailing-whitespace
+# TODO
+# -   repo: https://github.com/nbQA-dev/nbQA
+#     rev: 1.6.3
+#     hooks:
+#     - id: nbqa-isort
+#         args: [--profile, black]
+#     - id: nbqa-flake8
+#         args: [--ignore=E402]
 -   repo: https://github.com/PyCQA/isort
     rev: 5.9.3
     hooks:
